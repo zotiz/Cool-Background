@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather+Sans&family=Permanent+Marker&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500&family=Roboto:wght@300;400;500;900&display=swap');
+h1 {
+  margin: 100px ;
+  font-size: 100px;
+  font-weight: 900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(60deg,green, rgb(249, 19, 19),rgb(5, 218, 238),rgb(13, 199, 87),rgb(43, 43, 246),rgb(251, 15, 168));
+  background-size: 400%;
+   -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -moz-transition: background-position 2s;
+  -webkit-transition: background-position 2s;
+  transition: background-position 2s;
+  animation-name: dahal;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function:ease-in-out;
+} 
+
+ @keyframes dahal {
+  from {
+    background-position: left;
+  
+
+  }
+  to {
+    background-position: right;
+
+  }
+} 
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background:url(https://www.greenqueen.com.hk/wp-content/uploads/2021/06/WEF-Investments-In-Nature-Based-Solutions-Have-To-Triple-By-2030-To-Address-Climate-Change-Biodiversity-Loss-450x300.jpg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
